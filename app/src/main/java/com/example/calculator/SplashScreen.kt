@@ -12,6 +12,9 @@ class SplashScreen : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash_screen)
 
+        this.supportActionBar!!.hide() //for hide action bar
+
+
         // set intent and handler in kotlin
 //        Handler().postDelayed(Runnable {
 //
